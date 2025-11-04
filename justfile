@@ -1,4 +1,4 @@
-vortex-repo := "https://github.com/vortexgpgpu/vortex"
+vortex-repo := "https://github.com/olgaf21/vortex.git"
 
 build:
     sudo docker build \
