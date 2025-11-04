@@ -21,3 +21,8 @@ enter:
 mount:
     sshfs -v -p 2222 root@localhost:/vortex ./vortex
     #password is vlsilab
+mount-container:
+    sudo docker run -it \
+        -v ~/vortex_tut:/vortex_tut \
+        --name vortex-container \
+        vortex-develop bash
